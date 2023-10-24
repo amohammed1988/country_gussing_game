@@ -1,0 +1,46 @@
+# Define the West Africa country and country capital
+West_Africa_country = "Nigeria"
+country_capital = "Abuja"
+Country_region = "West Africa"# Corrected the variable name and assigned the capital of Nigeria
+
+# Initialize variables
+guess_count = 0
+guess_limit = 3
+out_of_guesses = False  # Corrected the variable name to 'False'
+score = 0
+
+# Start a loop to allow the user to guess
+while guess_count < guess_limit:
+    guess = input("Enter an African country name: ")
+
+    # Check if the country guess is correct
+    if guess == West_Africa_country:
+     score +=100
+     print("You got the country correct! Now guess the country capital.")
+     capital_guess = input("Guess the country capital: ")
+
+
+        # Check if the capital guess is correct
+     if capital_guess == country_capital:
+        score +=100
+        print("You got the capital correct! Now guess the country Region.")
+        Region_guess = input("guess the country region: ")
+
+            #check if the country region guess is correct
+        if Region_guess == Country_region:
+               score +=100
+               break  # Exit the loop if both guesses are correct
+        else:
+            print("Region guess is incorrect.")
+
+
+    guess_count += 100
+
+# Check if the user won or lost and print the result
+if guess_count >= guess_limit:
+    out_of_guesses = True
+
+if out_of_guesses:
+    print(f"You lose! The country is {West_Africa_country} and the capital is {country_capital}, Nigeria is located  in {Country_region}.your score: {score} out of 300")
+else:
+    print(f"You won! The country is {West_Africa_country} and the capital is {country_capital}, Nigeria is located  in {Country_region}. your score: {score} out of 300")
