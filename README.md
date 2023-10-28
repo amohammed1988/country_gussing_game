@@ -1,5 +1,5 @@
 # country_gussing_game
-Three variables are defined to store the name of the country, its capital, and its region:
+(1) Three variables are defined to store the name of the country, its capital, and its region:
 
  A.  country_name.
  
@@ -7,7 +7,7 @@ Three variables are defined to store the name of the country, its capital, and i
  
  C.	country_region.
 
-Several variables are initialized:
+(2) Several variables are initialized:
 guess to store the user's input.
 
  
@@ -23,14 +23,14 @@ guess to store the user's input.
 The code uses loops to guide the user through the game for each of the three questions (country name, capital, and region):
 
 
-Country Name Guessing:  A while loop checks if the user's guess (guess) is not equal to the country_name, and if the user hasn't exceeded the guess limit.
+(3) Country Name Guessing:  A while loop checks if the user's guess (guess) is not equal to the country_name, and if the user hasn't exceeded the guess limit.
 The code checks if the entered guess is equal to the country_name. If it is, the user is rewarded with a score increase of 100, and a message is printed to inform them that they guessed correctly. Otherwise, a message is printed to ask the user to try again.
 The guess_count is incremented to keep track of the number of guesses.
 If the guess_count reaches the guess_limit, the out_of_guesses flag is set to True, and a message is printed to indicate that the user is incorrect, followed by another question.
 
 
 
-Country Capital Guessing: A new loop starts for guessing the country capital, following a similar structure to the previous section. This time, if the user reaches the guess limit, a message is printed to inform the user that they didn't guess the capital correctly.
+(4) Country Capital Guessing: A new loop starts for guessing the country capital, following a similar structure to the previous section. This time, if the user reaches the guess limit, a message is printed to inform the user that they didn't guess the capital correctly.
 Country Region Guessing: Another loop is used to handle guessing the country region, similar to the previous sections. If the user reaches the guess limit here, a message is printed indicating that they didn't guess the region correctly. After all three questions, there is a final check to see if the user ran out of guesses (out_of_guesses is True). If so, an insulting message is printed to chastise the user.
 
 
