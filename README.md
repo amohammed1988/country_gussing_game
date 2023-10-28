@@ -2,7 +2,9 @@
 Three variables are defined to store the name of the country, its capital, and its region:
 
  A.  country_name.
+ 
  B.	country_capital.
+ 
  C.	country_region.
 
 Several variables are initialized:
@@ -11,8 +13,11 @@ guess to store the user's input.
  
  
  A.	guess_count: to keep track of how many guesses the user has made.
+ 
  B.	guess_limit: is set to 4, which means the user has a maximum of 4 attempts for each question.
+ 
  C.	out_of_guesses: is initially set to False to indicate that the user has not run out of guesses.
+ 
  D.	guess_score:  to keep track of the user's score, which is initially set to 0. 
 
 The code uses loops to guide the user through the game for each of the three questions (country name, capital, and region):
