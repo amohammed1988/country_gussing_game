@@ -1,4 +1,4 @@
-# Creating a Region Riddle using Python.
+# Creating a Region Riddle game using Python.
 # Put Your Geographic Knowledge to test.
 (1) Three variables are defined to store the name of the country, its capital, and its region:
 
