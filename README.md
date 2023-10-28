@@ -88,7 +88,7 @@ Create a README.md file in the repository directory to provide information about
 # Step (8): Add and Commit Your Changes:
 In your terminal, navigate to your repository folder and use the following commands to add and commit your changes:
 
-Copy code
+Copy the below code
 
 git add .
 
@@ -98,7 +98,7 @@ git commit -m "Initial commit"
 # Step (9): Push Your Code:
 Push your code to the GitHub repository:
 
-Copy code
+Copy the below code
 
 git push origin main
 
