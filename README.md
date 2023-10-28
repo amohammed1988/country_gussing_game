@@ -29,6 +29,7 @@ The guess_count is incremented to keep track of the number of guesses.
 If the guess_count reaches the guess_limit, the out_of_guesses flag is set to True, and a message is printed to indicate that the user is incorrect, followed by another question.
 
 
+
 Country Capital Guessing: A new loop starts for guessing the country capital, following a similar structure to the previous section. This time, if the user reaches the guess limit, a message is printed to inform the user that they didn't guess the capital correctly.
 Country Region Guessing: Another loop is used to handle guessing the country region, similar to the previous sections. If the user reaches the guess limit here, a message is printed indicating that they didn't guess the region correctly. After all three questions, there is a final check to see if the user ran out of guesses (out_of_guesses is True). If so, an insulting message is printed to chastise the user.
 
