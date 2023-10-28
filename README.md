@@ -8,6 +8,8 @@ Three variables are defined to store the name of the country, its capital, and i
 Several variables are initialized:
 guess to store the user's input.
 
+ 
+ 
  A.	guess_count: to keep track of how many guesses the user has made.
  B.	guess_limit: is set to 4, which means the user has a maximum of 4 attempts for each question.
  C.	out_of_guesses: is initially set to False to indicate that the user has not run out of guesses.
