@@ -1,11 +1,13 @@
 # country_gussing_game
 Three variables are defined to store the name of the country, its capital, and its region:
+
  A.  country_name.
  B.	country_capital.
  C.	country_region.
 
 Several variables are initialized:
 guess to store the user's input.
+
  A.	guess_count: to keep track of how many guesses the user has made.
  B.	guess_limit: is set to 4, which means the user has a maximum of 4 attempts for each question.
  C.	out_of_guesses: is initially set to False to indicate that the user has not run out of guesses.
@@ -16,8 +18,11 @@ Country Name Guessing:  A while loop checks if the user's guess (guess) is not e
 The code checks if the entered guess is equal to the country_name. If it is, the user is rewarded with a score increase of 100, and a message is printed to inform them that they guessed correctly. Otherwise, a message is printed to ask the user to try again.
 The guess_count is incremented to keep track of the number of guesses.
 If the guess_count reaches the guess_limit, the out_of_guesses flag is set to True, and a message is printed to indicate that the user is incorrect, followed by another question.
+
+
 Country Capital Guessing: A new loop starts for guessing the country capital, following a similar structure to the previous section. This time, if the user reaches the guess limit, a message is printed to inform the user that they didn't guess the capital correctly.
 Country Region Guessing: Another loop is used to handle guessing the country region, similar to the previous sections. If the user reaches the guess limit here, a message is printed indicating that they didn't guess the region correctly. After all three questions, there is a final check to see if the user ran out of guesses (out_of_guesses is True). If so, an insulting message is printed to chastise the user.
+
 
 Finally, based on whether the user has won or lost, a message is printed to display the correct answers and the user's score. 
 The code structure is mostly the same for each of the three questions, with minor variations in the messages and what's being guessed. 
@@ -39,6 +44,7 @@ Click on the "+" sign in the upper-right corner and select "New repository."
 Fill in the repository name, a description, choose visibility (public or private), and select options as needed.
 Click "Create repository."
 
+
 (4) Set Up Git:
 Open a terminal on your local machine and configure Git with your name and email:
 bash
@@ -46,17 +52,21 @@ Copy code
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
+
 (5) Clone the Repository:
 To work with the repository on your local machine, you need to clone it. Use the "Code" button on your GitHub repository to get the clone URL, then execute the following command in your terminal:
 bash
 Copy code
 git clone https://github.com/yourusername/repositoryname.git
 
+
 (6) Add Your Project Files:
 Copy your Python code files into the cloned repository folder on your local machine.
 
+
 (7) Create a README:
 Create a README.md file in the repository directory to provide information about your project, its usage, and any other details. You can use Markdown formatting to structure your README.
+
 
 (8) Add and Commit Your Changes:
 In your terminal, navigate to your repository folder and use the following commands to add and commit your changes:
@@ -65,6 +75,7 @@ Copy code
 git add .
 git commit -m "Initial commit"
 
+
 (9) Push Your Code:
 Push your code to the GitHub repository:
 bash
@@ -72,8 +83,10 @@ Copy code
 git push origin main
 Replace main with the appropriate branch name if you are using a different branch.
 
+
 (10) GitHub Settings:
 In the GitHub repository settings, you can configure additional options, such as branch protection rules, collaborators, and more.
+
 
 (11) Publish Your Repository:
 Once you've added your code and configured your repository settings, it's ready to be published. People can now access and clone your project from GitHub.
