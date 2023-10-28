@@ -14,6 +14,8 @@ guess to store the user's input.
  D.	guess_score:  to keep track of the user's score, which is initially set to 0. 
 
 The code uses loops to guide the user through the game for each of the three questions (country name, capital, and region):
+
+
 Country Name Guessing:  A while loop checks if the user's guess (guess) is not equal to the country_name, and if the user hasn't exceeded the guess limit.
 The code checks if the entered guess is equal to the country_name. If it is, the user is rewarded with a score increase of 100, and a message is printed to inform them that they guessed correctly. Otherwise, a message is printed to ask the user to try again.
 The guess_count is incremented to keep track of the number of guesses.
