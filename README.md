@@ -42,7 +42,7 @@ The user is given multiple chances to guess the correct answers before losing th
 
 
 
-# To host your Python guessing game project on GitHub, you can follow these steps:
+# To host your Region Riddle game project on GitHub, you can follow these steps:
 
 # Step (1): Create a GitHub Account:
 If you don't have a GitHub account, create one at GitHub.
