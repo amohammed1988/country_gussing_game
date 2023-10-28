@@ -1,6 +1,7 @@
 # Creating a Region Riddle game using Python.
-# Put Your Geographical Knowledge to test.
-Step (1): Three variables are defined to store the name of the country, its capital, and its region:
+Put Your Geographical Knowledge to test.
+# Step (1): 
+Three variables are defined to store the name of the country, its capital, and its region:
 
  A.  country_name.
  
@@ -8,7 +9,8 @@ Step (1): Three variables are defined to store the name of the country, its capi
  
  C.	country_region.
 
-Step (2): Several variables are initialized:
+# Step (2): 
+Several variables are initialized:
 # guess to store the user's input.
 
  
@@ -21,21 +23,24 @@ Step (2): Several variables are initialized:
  
  D.	guess_score:  to keep track of the user's score, which is initially set to 0. 
 
-# The code uses loops to guide the user through the game for each of the three questions (country name, capital, and region):
+# Step (3): 
+The code uses loops to guide the user through the game for each of the three questions (country name, capital, and region):
 
 
-Step (3): Country Name Guessing:  A while loop checks if the user's guess (guess) is not equal to the country_name, and if the user hasn't exceeded the guess limit.
+Country Name Guessing:  A while loop checks if the user's guess (guess) is not equal to the country_name, and if the user hasn't exceeded the guess limit.
 The code checks if the entered guess is equal to the country_name. If it is, the user is rewarded with a score increase of 100, and a message is printed to inform them that they guessed correctly. Otherwise, a message is printed to ask the user to try again.
 The guess_count is incremented to keep track of the number of guesses.
 If the guess_count reaches the guess_limit, the out_of_guesses flag is set to True, and a message is printed to indicate that the user is incorrect, followed by another question.
 
 
 
-Step (4): Country Capital Guessing: A new loop starts for guessing the country capital, following a similar structure to the previous section. This time, if the user reaches the guess limit, a message is printed to inform the user that they didn't guess the capital correctly.
+# Step (4): 
+Country Capital Guessing: A new loop starts for guessing the country capital, following a similar structure to the previous section. This time, if the user reaches the guess limit, a message is printed to inform the user that they didn't guess the capital correctly.
 Country Region Guessing: Another loop is used to handle guessing the country region, similar to the previous sections. If the user reaches the guess limit here, a message is printed indicating that they didn't guess the region correctly. After all three questions, there is a final check to see if the user ran out of guesses (out_of_guesses is True). If so, an insulting message is printed to chastise the user.
 
 
-Step (5): Finally, based on whether the user has won or lost, a message is printed to display the correct answers and the user's score. 
+# Step (5): 
+Finally, based on whether the user has won or lost, a message is printed to display the correct answers and the user's score. 
 The code structure is mostly the same for each of the three questions, with minor variations in the messages and what's being guessed. 
 The user is given multiple chances to guess the correct answers before losing the game. The code also keeps track of the user's score throughout the game.
 
