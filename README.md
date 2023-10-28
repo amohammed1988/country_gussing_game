@@ -44,20 +44,20 @@ The user is given multiple chances to guess the correct answers before losing th
 
 # To host your Python guessing game project on GitHub, you can follow these steps:
 
-#Step (1): Create a GitHub Account:
+# Step (1): Create a GitHub Account:
 If you don't have a GitHub account, create one at GitHub.
 
 #Step (2): Install Git:
 If you haven't already, you'll need to install Git on your local machine. You can download it from git-scm.com.
 
-#Step (3): Create a New Repository:
+# Step (3): Create a New Repository:
 Log in to your GitHub account.
 Click on the "+" sign in the upper-right corner and select "New repository."
 Fill in the repository name, a description, choose visibility (public or private), and select options as needed.
 Click "Create repository."
 
 
-#Step (4): Set Up Git:
+# Step (4): Set Up Git:
 Open a terminal on your local machine and configure Git with your name and email:
 bash
 Copy code
@@ -65,22 +65,22 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
 
-#Step (5): Clone the Repository:
+# Step (5): Clone the Repository:
 To work with the repository on your local machine, you need to clone it. Use the "Code" button on your GitHub repository to get the clone URL, then execute the following command in your terminal:
 bash
 Copy code
 git clone https://github.com/yourusername/repositoryname.git
 
 
-#Step (6): Add Your Project Files:
+# Step (6): Add Your Project Files:
 Copy your Python code files into the cloned repository folder on your local machine.
 
 
-#Step (7): Create a README:
+# Step (7): Create a README:
 Create a README.md file in the repository directory to provide information about your project, its usage, and any other details. You can use Markdown formatting to structure your README.
 
 
-#Step (8): Add and Commit Your Changes:
+# Step (8): Add and Commit Your Changes:
 In your terminal, navigate to your repository folder and use the following commands to add and commit your changes:
 bash
 Copy code
@@ -88,7 +88,7 @@ git add .
 git commit -m "Initial commit"
 
 
-#Step (9): Push Your Code:
+# Step (9): Push Your Code:
 Push your code to the GitHub repository:
 bash
 Copy code
@@ -96,14 +96,14 @@ git push origin main
 Replace main with the appropriate branch name if you are using a different branch.
 
 
-#Step (10): GitHub Settings:
+# Step (10): GitHub Settings:
 In the GitHub repository settings, you can configure additional options, such as branch protection rules, collaborators, and more.
 
 
 #Step (11): Publish Your Repository:
 Once you've added your code and configured your repository settings, it's ready to be published. People can now access and clone your project from GitHub.
 
-#Step (12): Keep Your Repository Updated:
+# Step (12): Keep Your Repository Updated:
 As you make changes to your project, remember to add, commit, and push those changes to keep your GitHub repository up to date.
 
 Now your guessing game project is hosted on GitHub, and you can share it with others. You can also use GitHub to collaborate with others, manage issues, and track changes to your code over time.
