@@ -34,7 +34,7 @@ If the guess_count reaches the guess_limit, the out_of_guesses flag is set to Tr
 Country Region Guessing: Another loop is used to handle guessing the country region, similar to the previous sections. If the user reaches the guess limit here, a message is printed indicating that they didn't guess the region correctly. After all three questions, there is a final check to see if the user ran out of guesses (out_of_guesses is True). If so, an insulting message is printed to chastise the user.
 
 
-Finally, based on whether the user has won or lost, a message is printed to display the correct answers and the user's score. 
+(5) Finally, based on whether the user has won or lost, a message is printed to display the correct answers and the user's score. 
 The code structure is mostly the same for each of the three questions, with minor variations in the messages and what's being guessed. 
 The user is given multiple chances to guess the correct answers before losing the game. The code also keeps track of the user's score throughout the game.
 
