@@ -1,4 +1,5 @@
-# country_gussing_game
+# Creating a Region Riddle using Python.
+# Put Your Geographic Knowledge to test.
 (1) Three variables are defined to store the name of the country, its capital, and its region:
 
  A.  country_name.
